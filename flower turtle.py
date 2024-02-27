@@ -52,11 +52,15 @@ class CenteredCircle(Flower):
         turtle.circle(self.circle_radius)
         turtle.end_fill()
 
-# สร้างดอกไม้วงนอก
+# สร้างดอกไม้วงที่1
+flower0 = Flower(num_petals=16, radius=125, color="orange")
+flower0.draw()
+
+# สร้างดอกไม้วงที่2
 flower1 = Flower(num_petals=12, radius=100, color="blue")
 flower1.draw()
 
-# สร้างดอกไม้วงข้างใน
+# สร้างดอกไม้วงที่3
 flower2 = Flower(num_petals=8, radius=75, color="red")
 flower2.draw()
 
